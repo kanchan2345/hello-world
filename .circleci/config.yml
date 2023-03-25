@@ -1,9 +1,7 @@
 version: 2
-services:
-      ghost:
 jobs:
   one:
-    docker:
+   docker:
       - images: cimg/ruby:2.6.8
         auth:
           username: mydockerhub-user

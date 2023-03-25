@@ -1,4 +1,6 @@
 version: 2
+services:
+      ghost:
 jobs:
   one:
     docker:
